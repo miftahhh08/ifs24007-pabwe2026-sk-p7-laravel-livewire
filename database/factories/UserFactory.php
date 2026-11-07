@@ -30,6 +30,11 @@ class UserFactory extends Factory
         ];
     }
 
+    public function member(): static
+    {
+        return $this->state(fn (array $attributes) => ['role' => 'member']);
+    }
+
     public function admin(): static
     {
         return $this->state(fn (array $attributes) => ['role' => 'admin']);

@@ -25,3 +25,15 @@ _ide_helper.php
 Homestead.json
 Homestead.yaml
 Thumbs.db
+/coverage-html
+/coverage-*
+/coverage.txt
+/coverage.xml
+/junit.xml
+/events.txt
+/phpunit_*.txt
+/trivy-results.sarif
+/.trivy-cache
+/latest-app.zip
+npm-debug.log
+yarn-error.log
