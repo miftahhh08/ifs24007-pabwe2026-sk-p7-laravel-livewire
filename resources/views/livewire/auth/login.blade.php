@@ -30,6 +30,6 @@
     </form>
 
     <p class="mt-6 text-center text-sm text-gray-600">
-        Belum punya akun? <a href="{{ url('/register') }}" class="text-blue-600 hover:underline">Daftar</a>
+        Belum punya akun? <a href="{{ url('/register') }}" class="font-medium text-blue-700 underline hover:no-underline">Daftar</a>
     </p>
 </div>

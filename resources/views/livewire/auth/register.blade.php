@@ -41,6 +41,6 @@
     </form>
 
     <p class="mt-6 text-center text-sm text-gray-600">
-        Sudah punya akun? <a href="{{ url('/login') }}" class="text-blue-600 hover:underline">Masuk</a>
+        Sudah punya akun? <a href="{{ url('/login') }}" class="font-medium text-blue-700 underline hover:no-underline">Masuk</a>
     </p>
 </div>

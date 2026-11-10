@@ -16,6 +16,7 @@
                 </div>
             @endif
             <div class="space-y-2">
+                <label for="profile-photo" class="sr-only">Pilih foto profil</label>
                 <input type="file" id="profile-photo" wire:model="photo" accept="image/*" class="block text-sm">
                 @error('photo') <p class="text-sm text-red-600">{{ $message }}</p> @enderror
                 <div wire:loading wire:target="photo" class="text-xs text-gray-500">Mengunggah...</div>

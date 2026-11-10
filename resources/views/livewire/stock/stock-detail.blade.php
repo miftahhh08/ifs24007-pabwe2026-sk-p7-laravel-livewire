@@ -46,7 +46,7 @@
 
                     <div class="mb-2 text-sm font-medium text-gray-500">Deskripsi</div>
                     @if ($stock->description)
-                        <div class="space-y-2 text-sm [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_h1]:text-xl [&_h1]:font-semibold [&_h2]:text-lg [&_h2]:font-semibold [&_a]:text-blue-600 [&_code]:rounded [&_code]:bg-gray-100 [&_code]:px-1">
+                        <div class="space-y-2 text-sm [&_ul]:list-disc [&_ul]:pl-5 [&_ol]:list-decimal [&_ol]:pl-5 [&_h1]:text-xl [&_h1]:font-semibold [&_h2]:text-lg [&_h2]:font-semibold [&_a]:text-blue-700 [&_a]:underline [&_code]:rounded [&_code]:bg-gray-100 [&_code]:px-1">
                             {!! \Illuminate\Support\Str::markdown($stock->description, ['html_input' => 'strip', 'allow_unsafe_links' => false]) !!}
                         </div>
                     @else

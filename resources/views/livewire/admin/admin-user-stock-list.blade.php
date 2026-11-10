@@ -11,7 +11,7 @@
     <div class="mb-4 flex flex-wrap gap-3">
         <input type="search" id="admin-stock-search" wire:model.live.debounce.300ms="search" placeholder="Cari nama atau SKU..."
                class="w-64 rounded border border-gray-300 px-3 py-2 text-sm">
-        <select id="admin-stock-status-filter" wire:model.live="statusFilter" class="rounded border border-gray-300 px-3 py-2 text-sm">
+        <select id="admin-stock-status-filter" aria-label="Filter status stok" wire:model.live="statusFilter" class="rounded border border-gray-300 px-3 py-2 text-sm">
             <option value="">Semua status</option>
             @foreach ($statuses as $status)
                 <option value="{{ $status->value }}">{{ $status->label() }}</option>
